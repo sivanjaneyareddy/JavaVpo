@@ -12,7 +12,7 @@ pool:
 steps:
 - task: Maven@3
   inputs:
-    mavenPomFile: '/home/vsts/work/1/s/**/pom.xml'
+    mavenPomFile: '/home/vsts/work/1/s/pom.xml'
     publishJUnitResults: true
     testResultsFiles: '/home/vsts/work/1/s/**/surefire-reports/TEST-*.xml'
     javaHomeOption: 'JDKVersion'
