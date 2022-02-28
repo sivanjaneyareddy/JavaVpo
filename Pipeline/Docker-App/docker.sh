@@ -1,5 +1,5 @@
 #!/bin/bash
 set -x
-docker login -u rohitshavili -p anglo@123
+docker login --username rohitshavili --password anglo@123
 #docker build -t rohitshavili/docker-bashrepo .
 #docker images
