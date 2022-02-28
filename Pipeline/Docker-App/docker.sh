@@ -1,6 +1,3 @@
-#!/bin/bash
-
-set -ex
 
 docker login -u rohitshavili -p anglo@123
 
